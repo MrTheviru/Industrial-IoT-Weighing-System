@@ -4,6 +4,10 @@
   <strong>Custom-built remote weighing display featuring an in-house fabricated PCB, ESP8266 connectivity, and a large four-digit 7-segment display.</strong>
 </p>
 
+<p align="center">
+  <img src="assets/images/industrial-weighing-display-front.jpg" alt="Completed industrial IoT weighing system remote display" width="820">
+</p>
+
 ---
 
 ## 📌 Overview
@@ -22,18 +26,17 @@ The finished unit provides a large, easy-to-read **four-digit 7-segment display*
 - 🛠️ PCB fabricated and assembled in-house
 - 📦 Completed enclosed working unit
 
-## 🔧 PCB Development & Fabrication
+## 🔧 Development & Fabrication
 
-A major part of this project was producing the electronics board in-house. The project documentation shows the PCB through multiple fabrication stages:
+A major part of this project was producing the electronics board in-house. The work covered the complete development cycle:
 
-1. PCB artwork prepared for transfer
-2. Copper board patterned and etched
-3. PCB drilled and prepared for components
-4. Components and wiring soldered to the board
-5. ESP8266 and display hardware assembled
-6. Electronics integrated into the final enclosure
+1. Circuit and PCB development
+2. In-house board fabrication and preparation
+3. Component assembly and validation
+4. ESP8266 and display integration
+5. Enclosure integration and final testing
 
-This demonstrates the complete path from a PCB design to a physical working electronics assembly.
+This portfolio documents the completed system and assembled electronics without publishing reproducible board artwork, manufacturing data, or editable design files.
 
 ## 🧠 Electronics
 
@@ -49,18 +52,28 @@ This demonstrates the complete path from a PCB design to a physical working elec
 
 `PCB Design` · `PCB Fabrication` · `Embedded Systems` · `ESP8266` · `IoT` · `Electronics Assembly` · `Industrial Weighing`
 
-## 📷 Project Documentation
+## 📷 Project Gallery
 
-The project is documented with photographs covering:
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/images/industrial-weighing-display-front.jpg" alt="Front view of the completed scale remote display" width="100%"><br>
+      <sub><strong>Completed Remote Display</strong><br>Four-digit readout with STB, TARE and ZERO indicators.</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/images/industrial-weighing-display-angle.jpg" alt="Angled view of the completed scale remote display" width="100%"><br>
+      <sub><strong>Enclosed Working Unit</strong><br>Finished 5V display hardware ready for use.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="assets/images/assembled-iot-display-controller.jpg" alt="Assembled ESP8266 weighing display controller electronics" width="72%"><br>
+      <sub><strong>Assembled IoT Display Electronics</strong><br>ESP8266 controller, display modules and status indicators on the completed board.</sub>
+    </td>
+  </tr>
+</table>
 
-- PCB artwork
-- Etched copper PCB
-- Fabricated board
-- Soldered PCB underside
-- Assembled ESP8266 and four-digit display electronics
-- Completed Scale Remote Display
-
-> Detailed manufacturing/source files are intentionally not published in this public portfolio repository.
+> **Design protection:** Reproducible PCB artwork, schematics, Gerber files, editable CAD, manufacturing data, firmware source, STL files, dimensions, and other production-ready materials are intentionally not published. This repository is a portfolio showcase, not an open-source hardware release.
 
 ---
 
